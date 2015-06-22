@@ -1,4 +1,4 @@
-Here's a sample (but realistic) Go webapp that provides a JSON API using Revel and Gorm to connect with Heroku Postgres through their standard DATABASE_URL mechanism.
+Here's a sample (but somewhat realistic) Go webapp that provides a JSON API using Revel and Gorm to connect with Heroku Postgres through their standard DATABASE_URL mechanism.
 
 I just started learning Go, and found this app helpful to create.
 
