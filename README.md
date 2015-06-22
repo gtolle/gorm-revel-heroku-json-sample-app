@@ -1,6 +1,9 @@
-Here's a sample (but realistic) Go webapp that provides a JSON API using Revel and Gorm to connect with Heroku Postgres.
+Here's a sample (but realistic) Go webapp that provides a JSON API using Revel and Gorm to connect with Heroku Postgres through their standard DATABASE_URL mechanism.
 
-I just started learning Go, and found this helpful to create.
+I just started learning Go, and found this app helpful to create.
 
-Hope you find it helpful too.
+I come from a Rails background, and while it takes a lot of work to create something as full-featured, powerful, and flexible as ActiveRecord, I'm pretty darn impressed with Gorm so far. Preloading is one of my favorite ActiveRecord features, and I'm so glad that Gorm has it.
 
+I'm also pretty impressed with Revel, and Go's JSON marshalling.
+
+Hope you find this helpful for starting your own apps too.
