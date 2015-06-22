@@ -7,3 +7,11 @@ I come from a Rails background, and while it takes a lot of work to create somet
 I'm also pretty impressed with Revel, and Go's JSON marshalling.
 
 Hope you find this helpful for starting your own apps too.
+
+For deploying to Heroku, I'm using the Revel Buildpack. To use it, you just have to create your Heroku app like this:
+
+```
+heroku create -b https://github.com/revel/heroku-buildpack-go-revel.git
+```
+
+Then you can just do the usual `git remote` stuff and `git push heroku master`.
